@@ -1,5 +1,13 @@
 import { Lemon } from 'next/font/google'
 import Link from 'next/link'
+
+export const metadata = {
+  title: 'Blog Page',
+  description: 'Blog description',
+}
+
+
+
 const lemon = Lemon({
   weight: '400',
   subsets: ['latin'],
