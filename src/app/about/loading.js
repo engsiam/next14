@@ -1,11 +1,10 @@
-import Image from 'next/image'
-import React from 'react'
-import loadingImage from "@/images/loading.gif"
-
 export default function loading() {
   return (
-    <div className='h-screen w-screen font-bold text-4xl text-white'>
-        Loading...................
+    <div class="bg-green rounded-lg shadow-md p-4 animate-pulse">
+      <div class="w-full h-8 bg-green-300 rounded mb-2"></div>
+      <div class="w-full h-8 bg-green-300 rounded mb-2"></div>
+      <div class="w-full h-8 bg-green-300 rounded mb-2"></div>
+      <div class="w-full h-8 bg-green-300 rounded"></div>
     </div>
   )
 }
