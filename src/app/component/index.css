@@ -1,0 +1,7 @@
+#editorjs-container img {
+    border: 1px solid #ccc;
+    max-width: 100%; /* Ensure images don't exceed their container */
+    height: auto; /* Maintain aspect ratio */
+    background: url("https://images.pexels.com/photos/466685/pexels-photo-466685.jpeg?auto=compress&cs=tinysrgb&w=600") no-repeat center center;
+  }
+  
